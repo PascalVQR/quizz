@@ -8,7 +8,8 @@ root
     - img
   - controllers
   - css
-  - js models
+  - js
+  - models
   - views
 
 ## Naming Conventions
