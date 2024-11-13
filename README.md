@@ -16,7 +16,7 @@ root
 ### File names:
   snake_case
 
-### CSS classes:
+### CSS classes & IDs:
   kebab-case
 
 ### JS & PHP
