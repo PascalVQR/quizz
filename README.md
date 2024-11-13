@@ -11,7 +11,7 @@ root
   - js models
   - views
 
-## Naming Convetions
+## Naming Conventions
 
 ### File names:
   snake_case
