@@ -27,3 +27,16 @@ variables, constants, functions:
 
 Classes:
   PascalCase
+
+## File Names
+
+views/
+  name_view.php
+
+models/
+  name_model.php
+
+controllers/
+  name.php
+
+# /!\ IF THERE'S ANY DOUBT, ASK /!\
