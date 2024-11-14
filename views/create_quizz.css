@@ -1,0 +1,78 @@
+h1{
+  text-align: center;
+}
+
+#container{
+  background-color:#FFDB4D ;
+  padding-top: 5%;
+  border-radius: 5%;
+}
+
+
+#block1{
+background-color: rgb(255, 255, 255);
+text-align: center;
+border:5%
+
+}
+#block2{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+
+button{
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+#choix{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15%;
+
+}
+
+#choice{
+  padding: 5%;
+  width: 60%;
+ margin-bottom: 5%;
+  border: white;
+}
+
+
+
+.button{
+border: white;
+top:50%;
+display: flex;
+align-items: center;
+}
+
+#reponse{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 18px;
+  padding-left: 10%;
+  margin-left: 5%;
+  gap: 10px;
+  cursor: pointer;
+  
+}
+
+#A #B #C #D{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  
+border-radius: 15px;
+}
+
+
+
+
+
