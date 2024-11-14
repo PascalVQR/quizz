@@ -1,14 +1,14 @@
 @font-face {
     font-family: "Adia";
-    src: url("./assets/fonts/adia.ttf");
+    src: url("../assets/fonts/adia.ttf");
 }
 
 @font-face {
     font-family: "Inter";
-    src: url("./assets/fonts/inter.ttf");
+    src: url("../assets/fonts/inter.ttf");
 }
 
 @font-face {
     font-family: "Stopbuck";
-    src: url("./assets/fonts/stopbuck.ttf");
+    src: url("../assets/fonts/stopbuck.ttf");
 }
