@@ -1,0 +1,68 @@
+/* IMPORTS */
+@import url("fonts.css");
+
+
+:root {
+    --teal: #007A80;
+    --yellow: #FFDB4D;
+    --blue: #53B9E7;
+    --blue-hover: #6CCDF9;
+    --blue-pressed: #006DB1;
+    --blue-disabled: #97CDE6;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+footer {
+    background-color: var(--teal);
+    font-family: "Adia";
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.8em;
+    color: white;
+    img {
+        height: 32px;
+        width: auto;
+    }
+    img + img {
+        border: white;
+    }
+    .footer-icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        margin: auto 8px
+    }
+    .footer-coordinates {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+button {
+    background-color: var(--blue);
+}
+
+button:hover {
+    background-color: var(--blue-hover);
+}
+
+button:active {
+    background-color: var(--blue-pressed);
+}
+
+button:disabled {
+    background-color: var(--blue-disabled);
+}
+
+.base-box {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    background-color: var(--yellow);
+    margin: 10px;
+}
