@@ -1,0 +1,125 @@
+
+/*body{
+display: flex;
+align-items: center;
+justify-content: center;
+}*/
+
+h1{
+  text-align: center;
+  font-size: 20px;
+}
+
+#container{
+  padding-top: 5%;
+  border-radius: 5%;
+}
+
+
+/*premier block*/
+#container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#block1{
+background-color: rgb(255, 255, 255);
+text-align: center;
+border-radius:30px;
+border: #eee;
+width: 290px;
+height: 70px;
+margin-bottom: 5%;
+box-shadow: 10px 5px 5px rgb(136, 134, 49);
+
+}
+#block2{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border:#eee;
+  border-radius: 30px;
+  width: 290px;
+  height: 70px;
+  box-shadow: 10px 5px 5px rgb(136, 134, 49);
+
+}
+
+/*button */
+button{
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+
+}
+#choix{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15%;
+
+}
+
+#choice{
+  padding: 5%;
+  width: 60%;
+ margin-bottom: 5%;
+  border: white;
+  box-shadow: 10px 5px 5px rgb(136, 134, 49);
+
+}
+
+
+
+.button{
+border: white;
+top:50%;
+display: flex;
+align-items: center;
+width: 45px;
+height: 30px;
+margin-top: 10%;
+font-size: 25px;
+margin-right: 5%;
+}
+#valider{
+margin-left: 15%;
+  width: 90px;
+}
+
+
+#reponse{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 18px;
+  padding-left: 10%;
+  margin-left: 5%;
+  gap: 10px;
+  cursor: pointer;
+  
+}
+
+#A #B #C #D{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  
+border-radius: 15px;
+}
+
+
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5%;
+
+  }
+
+ 
+
