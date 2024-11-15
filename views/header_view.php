@@ -14,4 +14,3 @@
         <span class="material-symbols-outlined burger-icon">menu</span>
         
     </header>
-    <div class="base-box ">qsdqsds</div>
