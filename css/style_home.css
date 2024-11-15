@@ -1,0 +1,104 @@
+/* Imports */
+@import url("fonts.css");
+
+:root {
+    --teal: #007A80;
+    --yellow: #FFDB4D;
+    --blue: #53B9E7;
+    --blue-hover: #6CCDF9;
+    --blue-pressed: #006DB1;
+    --blue-disabled: #97CDE6;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--teal);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header img {
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.banner {
+    background-color: var(--yellow);
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.base-box {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    background-color: var(--yellow);
+    padding: 20px;
+    width: 300px;
+}
+
+button {
+    background-color: var(--blue);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: var(--blue-hover);
+}
+
+button:active {
+    background-color: var(--blue-pressed);
+}
+
+button:disabled {
+    background-color: var(--blue-disabled);
+    cursor: not-allowed;
+}
+
+footer {
+    background-color: var(--teal);
+    color: white;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer-icons img {
+    height: 32px;
+    width: auto;
+}
+
+.footer-icons a + a img {
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.footer-coordinates div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icons-small {
+    font-size: 16px !important;
+}
