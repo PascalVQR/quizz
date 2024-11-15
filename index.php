@@ -25,5 +25,5 @@ switch($path){
 }
 
 // Footer
-require "./views/quizzes_view.php";
+// require "./views/quizzes_view.php";
 require "./views/footer_view.php";
