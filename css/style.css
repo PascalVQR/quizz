@@ -207,3 +207,199 @@ button:disabled {
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
+
+/* CSS compte_admin */
+.compteadmin{
+    background-color: #FFDB4D;
+    border-radius: 20px;
+}
+
+ .save-button {
+    background-color: #53B9E7;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 10px auto;
+    display: block;
+}
+.back-button { 
+  display: left;
+  background-color: #53B9E7;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 10px auto;
+  }
+
+
+
+.quizz-create, .quizz-termined {
+    margin-bottom: 20px;
+  
+}
+
+.quizz-header {
+    display: flex;
+    justify-content: end; /* Aligne les enfants horizontalement avec un espace entre eux */
+    align-items: center; /* Centre verticalement les enfants */
+    margin-bottom: 15px; /* Ajoute un espace en bas */
+    position: relative; /* Nécessaire pour le centrage relatif */
+}
+
+.quizz-header h3 {
+    position: absolute; /* Permet de centrer indépendamment des autres éléments */
+    left: 50%; /* Centre horizontalement */
+    transform: translateX(-50%); /* Ajuste pour garder le centre exact */
+    margin: 0; /* Supprime les marges par défaut */
+    text-align: center; /* Garde le texte centré à l'intérieur du <h3> */
+}
+
+.create-quiz-button {
+    background-color: #53B9E7;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 8px 15px;
+    color: white;
+    font-size: 14px;
+}
+
+
+.top-bar h2, .account-info h3, .account-info p {
+    text-align: center;
+}
+
+
+.account-form {
+    max-width: 400px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-form label {
+    margin: 5px 0;
+    font-weight: bold; 
+}
+
+.account-form input {
+    width: 70%; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 15px; 
+}
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 10px;
+    border-radius: 10px; /* Arrondi des coins de la table */
+    overflow: hidden; /* Nécessaire pour que l'arrondi soit visible si la table a un fond */
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: center; 
+    vertical-align: middle;
+    padding: 8px;
+    background-color: white;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* CSS compte_stagiaire */
+
+.comptestag{
+    background-color: #FFDB4D;
+    border-radius: 20px;
+}
+
+ .save-button {
+    background-color: #53B9E7;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 10px auto;
+    display: block;
+}
+.back-button { 
+  display: left;
+  background-color: #53B9E7;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 10px auto;
+  }
+
+
+
+.quizz-loading, .quizz-termined {
+    margin-bottom: 20px; 
+}
+
+.quizz-header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 15px; 
+}
+
+.create-button {
+  background-color: #53B9E7;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: auto; /* Pousse le bouton à droite */
+}
+
+.top-bar h2, .account-info h3, .account-info p {
+    text-align: center;
+}
+
+
+.account-form {
+    max-width: 400px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-form label {
+    margin: 5px 0;
+    font-weight: bold; 
+}
+
+.account-form input {
+    width: 70%; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 15px; 
+}
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 10px;
+}
+
+th, td {
+    text-align: center; 
+    padding: 10px; 
+    vertical-align: middle;
+}
+
+thead th {
+    background-color: #f2f2f2; 
+    font-weight: bold;
+}

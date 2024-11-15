@@ -9,7 +9,6 @@ require "./views/header_view.php";
 
 $url = parse_url($_SERVER["REQUEST_URI"]);
 $path = $url["path"] ?? "/";
-
 switch($path){
     // HOME PAGE
     case "/php/quizz/":
@@ -23,6 +22,8 @@ switch($path){
     default:
         break;
 }
+require "./views/view_compte_admin.php";
+require "./views/view_compte_stagiaire.php";
 
 // Footer
 // require "./views/quizzes_view.php";
