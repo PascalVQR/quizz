@@ -25,7 +25,7 @@ body {
 footer, header {
     background-color: var(--teal);
     font-family: Stopbuck;
-    height: 54px;
+    min-height: 54px;
 }
 
 header {
@@ -62,10 +62,10 @@ header {
 footer {
     flex-shrink: 0;
     font-family: Inter;
-    height: 54px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 20px;
 
     font-size: 0.55em;
     color: white;
@@ -112,9 +112,6 @@ h1, h2, h3, h4, h5, h6 {
     /* width: 100%; */
     text-align: center;
     /* vertical-align: middle; */
-}
-
-h2 {
     font-size: 14px;
 }
 
@@ -206,4 +203,32 @@ button:disabled {
 
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
+}
+
+/* QUIZZES */
+
+.choices {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin: 0px 20px;
+    gap: 15px;
+}
+
+
+.choice-button {
+    height: 46px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.answer-selection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    input[type="checkbox"] {
+        border: solid 2px red;
+    }
 }
