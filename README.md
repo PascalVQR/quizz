@@ -14,6 +14,8 @@ root
 
 ## Naming Conventions
 
+All names in ENGLISH
+
 ### File names:
   snake_case
 
