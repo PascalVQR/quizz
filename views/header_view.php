@@ -8,5 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-
+    <header>
+        <span><a href="/php/quizz/"><img src="./assets/img/adrar_quizz.png" alt="Logo Adrar Quizz"></a></span>
+        <span><a href="/php/quizz/" class="site-title">ADRAR QUIZZ</a></span>
+        <span class="material-symbols-outlined burger-icon">menu</span>
+        
+    </header>
     <div class="base-box ">qsdqsds</div>
