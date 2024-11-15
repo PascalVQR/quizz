@@ -15,10 +15,15 @@ switch($path){
     case "/php/quizz/":
         break;
     
+    case "/php/quizz/quizzes":
+        require "./views/quizzes_view.php";
+        break;
+
     // NOT FOUND
     default:
         break;
 }
 
 // Footer
+require "./views/quizzes_view.php";
 require "./views/footer_view.php";
