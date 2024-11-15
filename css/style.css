@@ -1,7 +1,6 @@
 /* IMPORTS */
 @import url("fonts.css");
 
-
 :root {
     --teal: #007A80;
     --yellow: #FFDB4D;
@@ -143,9 +142,10 @@ main {
 
 .quiz-grid {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
     justify-content: stretch;
+    padding: 0px 10px;
     div {
         background-color: black;
         /* width: 100%;
@@ -153,9 +153,21 @@ main {
     }
 }
 
-/* .quiz-card {
-
-} */
+.quiz-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    background-color: var(--yellow);
+    img {
+        padding: 5px 5px 0px 5px;
+        object-fit: cover;
+    }
+    p {
+        margin: 2px 0px;
+        text-align: center;
+    }
+}
 
 button {
     background-color: var(--blue);
@@ -183,7 +195,7 @@ button:disabled {
 
 .base-box {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
-    border-radius: 6px;
+    border-radius: 12px;
     background-color: var(--yellow);
     margin: 10px;
 }
