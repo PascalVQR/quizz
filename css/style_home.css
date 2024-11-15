@@ -1,4 +1,4 @@
-/* Imports */
+/* IMPORTS */
 @import url("fonts.css");
 
 :root {
@@ -13,51 +13,61 @@
 html, body {
     padding: 0;
     margin: 0;
-    font-family: Arial, sans-serif;
+    height: 100%;
 }
 
-header {
-    background-color: var(--teal);
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-header img {
-    height: 50px;
-    margin-right: 10px;
-    vertical-align: middle;
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 .banner {
-    background-color: var(--yellow);
     text-align: center;
     padding: 20px;
-    font-size: 1.5em;
 }
 
-.login-container {
+main {
+    flex: 1 0 auto;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    align-items: center;
 }
 
 .base-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligne les éléments à gauche */
+    padding: 20px; /* Ajoute du rembourrage */
+    width: 300px; /* Largeur fixe pour le formulaire */
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
     background-color: var(--yellow);
-    padding: 20px;
-    width: 300px;
+    margin: 10px;
+}
+
+label {
+    margin-top: 10px; /* Ajoute de l'espace au-dessus des labels */
+}
+
+input {
+    margin-bottom: 15px; /* Ajoute de l'espace en dessous des inputs */
+    width: 80%; /* Prend toute la largeur de la boîte */
+    padding: 8px; /* Ajoute du rembourrage à l'intérieur des inputs */
+    border: 1px solid #ccc; /* Bordure grise pour les inputs */
+    border-radius: 4px; /* Coins arrondis pour les inputs */
+}
+
+.form-button {
+    margin-top: 10px; /* Espace au-dessus du bouton */
 }
 
 button {
     background-color: var(--blue);
-    color: white;
-    padding: 10px;
+    color: black;
     border: none;
+    padding: 10px 15px;
     border-radius: 4px;
     cursor: pointer;
-    width: 100%;
 }
 
 button:hover {
@@ -70,35 +80,39 @@ button:active {
 
 button:disabled {
     background-color: var(--blue-disabled);
-    cursor: not-allowed;
+}
+
+.switch-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Espace au-dessus du switch */
+}
+
+.switch {
+    margin-right: 10px; /* Espace entre le switch et le texte */
+}
+
+/* Styles pour le footer et le header, si nécessaire */
+footer, header {
+    background-color: var(--teal);
+    font-family: Stopbuck;
+    height: 54px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    color: white;
 }
 
 footer {
-    background-color: var(--teal);
-    color: white;
-    font-size: 0.8em;
+    flex-shrink: 0;
+    font-family: Inter;
+    height: 54px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    padding: 10px 0;
-}
-
-.footer-icons img {
-    height: 32px;
-    width: auto;
-}
-
-.footer-icons a + a img {
-    border: solid 1px white;
-    border-radius: 5px;
-}
-
-.footer-coordinates div {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.icons-small {
-    font-size: 16px !important;
+    font-size: 0.55em;
+    color: white;
 }
