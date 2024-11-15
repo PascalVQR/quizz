@@ -1,7 +1,7 @@
     <footer>
         <section class="footer-icons">
-            <a href=""><img src ="./assets/img/adrar_logo.png" alt ="Logo de l'ADRAR"></a>
-            <a href=""><img src="./assets/img/linked_in_logo.png" alt="Logo de LinkedIn"></a>
+            <a href="https://www.adrar-numerique.com/" target="_blank"><img src ="./assets/img/adrar_logo.png" alt ="Logo de l'ADRAR"></a>
+            <a href="https://linkedin.com/school/adrarnumerique/" target="_blank"><img src="./assets/img/linked_in_logo.png" alt="Logo de LinkedIn"></a>
         </section>
 
         <section class="footer-coordinates">
