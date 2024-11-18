@@ -1,5 +1,6 @@
 /* IMPORTS */
 @import url("fonts.css");
+@import url("home.css");
 @import url("footer_header.css");
 @import url("quiz.css");
 
@@ -10,6 +11,10 @@
     --blue-hover: #6CCDF9;
     --blue-pressed: #006DB1;
     --blue-disabled: #97CDE6;
+}
+
+.hidden {
+    display: none;
 }
 
 html, body {
@@ -75,6 +80,14 @@ button:active {
 
 button:disabled {
     background-color: var(--blue-disabled);
+}
+
+input {
+    height: 46px;
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
 }
 
 .base-box {

@@ -13,6 +13,7 @@ $path = $url["path"] ?? "/";
 switch($path){
     // HOME PAGE
     case "/php/quizz/":
+        require "./views/home_view.php";
         break;
     
     // ALL THE QUIZZES
