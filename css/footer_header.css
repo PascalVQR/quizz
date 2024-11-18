@@ -29,6 +29,7 @@ header {
 
 .burger-icon {
     font-size: 36px !important;
+    user-select: none;
 }
 
 .burger-icon:hover {

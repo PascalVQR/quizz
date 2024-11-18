@@ -51,7 +51,8 @@
 }
 
 #scores-container {
-    padding: 0px 10px 10px 10px;
+    padding: 0px 10px;
+    /* padding: 0px 10px 10px 10px; */
 }
 
 #best-scores {
@@ -74,7 +75,8 @@
     font-weight: 900;
 }
 
-.header-input, .header-element, .choice-input, .choice-button, .result-box {
+/* .header-input, .header-element, .choice-input, .choice-button, .result-box { */
+.header-element, .choice-button, .result-box {
     height: 46px;
     border: none;
     border-radius: 12px;
@@ -112,6 +114,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    user-select: none;
     cursor: pointer;
     span {
         justify-self: flex-end;
