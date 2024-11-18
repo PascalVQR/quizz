@@ -12,15 +12,35 @@ $path = $url["path"] ?? "/";
 
 switch($path){
     // HOME PAGE
-    case "/php/quizz/":
+    case "/php/quizz/home":
+        require "./views/home_view.php";
         break;
     
+    // ALL THE QUIZZES
+    case "/php/quizz/quizzes":
+        require "./views/quizzes_view.php";
+        break;
+
+    // CREATE QUIZ
+    case "/php/quizz/create-quiz":
+        require "./views/create_quiz_view.php";
+        break;
+    
+    // PLAY QUIZ
+    case "/php/quizz/play":
+        require "./views/quiz_view.php";
+        break;
+    
+    // RESULTS
+    case "/php/quizz/result":
+        require "./views/result_view.php";
+        break;
+
     // NOT FOUND
     default:
         break;
 }
-require "./views/home_view.php";
 
 // Footer
+// require "./views/quizzes_view.php";
 require "./views/footer_view.php";
-
