@@ -15,8 +15,14 @@ switch($path){
     case "/php/quizz/":
         break;
     
+    // ALL THE QUIZZES
     case "/php/quizz/quizzes":
         require "./views/quizzes_view.php";
+        break;
+
+    // CREATE QUIZ
+    case "/php/quizz/create-quiz":
+        require "./views/create_quiz_view.php";
         break;
 
     // NOT FOUND
